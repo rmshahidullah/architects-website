@@ -134,15 +134,15 @@ section {
 /* Blogs styles */
 
 .blogs {
-    position: relative;    
+    /* position: relative;  */
+    width: 900px;   
+    
+    margin: 0 auto;
 }
 
 .blog-container {
     display: flex;
     gap: 54px;
-    width: 900px;
-    align-items: center;
-    margin: 0 auto;
 }
 
 article {
@@ -178,10 +178,9 @@ article {
 }
 
 .blog-btn {
-    position: absolute;
-    bottom: 30px;
-    left: 130px;
-    width: 900px;
+    position: relative;
+    top: -140px;
+    left: 50px;
     text-align: center;
 }
 
