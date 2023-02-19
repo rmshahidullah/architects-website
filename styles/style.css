@@ -134,7 +134,7 @@ section {
 /* Blogs styles */
 
 .blogs {
-    position: relative;
+    position: relative;    
 }
 
 .blog-container {
@@ -180,7 +180,9 @@ article {
 .blog-btn {
     position: absolute;
     bottom: 30px;
-    left: 530px;
+    left: 130px;
+    width: 900px;
+    text-align: center;
 }
 
 .blog-btn small {
