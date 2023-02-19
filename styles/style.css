@@ -197,16 +197,19 @@ article {
 .facts-title {
     font-weight: 700;
     font-size: 45px;
+    margin-bottom: 25px;
 }
 
 .facts-description {
     color: #727272;
+    margin-bottom: 50px;
 }
 
 .facts-info-container {
     width: 850px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
 
 
 }
@@ -217,7 +220,6 @@ article {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 20px;
-
     text-align: center;
     transition: transform 1s;
 
@@ -229,19 +231,48 @@ article {
 }
 
 
+/* Sponsor style */
 
-
-
-
-
-
-
-footer {
-    /* width: 1440px; */
-    height: 100px;
-    color: #424242;
-    font-size: 20px;
+.sponsor-container{
+    width: 900px;
+    margin: 0 auto;
     text-align: center;
-    background-color: #FFF4E7;
-    margin-bottom: 100px;
 }
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.sponsor-description{
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsor-partner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-partner img{
+    width: 80px;
+}
+
+ /* Footer style */
+
+
+.footer {
+    margin: 0 auto;
+    width: 900px;
+    color: #424242;
+    text-align: center;
+    padding: 50px 0;
+    height: 50px;
+    background-color: #FFF4E7;
+    margin-bottom: 50px;
+} 
+
