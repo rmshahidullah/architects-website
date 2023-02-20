@@ -4,9 +4,9 @@
 }
 
 /* Header styles */
+
 .header {
     background-color: rgba(255, 144, 14, 0.1);
-
 }
 
 nav {
@@ -83,10 +83,6 @@ nav .main-title {
 
 /* Gallery section styles */
 
-/* main{
-    width: 900px;
-} */
-
 section {
     margin-top: 100px;
 }
@@ -134,7 +130,6 @@ section {
 /* Blogs styles */
 
 .blogs {
-    /* position: relative;  */
     width: 900px;   
     
     margin: 0 auto;
@@ -211,8 +206,6 @@ article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
-
-
 }
 
 .facts-info {
@@ -223,12 +216,10 @@ article {
     padding: 20px;
     text-align: center;
     transition: transform 1s;
-
 }
 
 .facts-info:hover {
     transform: scale(.5) rotate(360deg);
-
 }
 
 
@@ -253,8 +244,7 @@ article {
 .sponsor-partner{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-content: space-between;
-    
+    justify-content: space-between;  
     align-items: center;
     margin-bottom: 50px;
 }
@@ -263,17 +253,75 @@ article {
     width: 80px;
 }
 
- /* Footer style */
+/* Contact section styles */
 
+.contact-container {
+    display: flex;
+    gap: 250px;
+    background: #151414;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 31px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+
+.contact-container p {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.contact-container a {
+    text-decoration: none;
+    margin-right: 18px;
+    color: #FFFFFF;
+}
+
+.title-sbs {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    color: #F3F3F3;
+    font-size: 18px;
+    border: 1px solid white; 
+    margin-bottom: 16px;
+    background: #151414;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005FAC;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+ /* Footer style */
 
 .footer {
     margin: 0 auto;
-    width: 900px;
     color: #424242;
     text-align: center;
     padding: 50px 0;
     height: 50px;
     background-color: #FFF4E7;
+    margin-top: 50px;
     margin-bottom: 50px;
 } 
 
